@@ -1,5 +1,5 @@
 //
-//  SAMViewController.h
+//  SAMDynamiclySizedTableViewCell.h
 //  DynamiclySizedTableViewCells
 //
 //  Created by Joshua Wood on 25/06/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAMViewController : UIViewController
+@interface SAMDynamiclySizedTableViewCell : UITableViewCell
 
 @end
