@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAMDynamiclySizedTableViewCell : UITableViewCell
+@interface SAMDynamicallySizedTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *labelLabel;
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
 
 @end

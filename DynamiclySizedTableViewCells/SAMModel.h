@@ -10,4 +10,9 @@
 
 @interface SAMModel : NSObject
 
+@property (strong, nonatomic) NSString *label;
+@property (strong, nonatomic) NSString *content;
+
+- (instancetype)initWithLabel:(NSString *)label content:(NSString *)content;
+
 @end

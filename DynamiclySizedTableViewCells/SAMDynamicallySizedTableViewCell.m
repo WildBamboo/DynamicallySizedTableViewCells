@@ -6,29 +6,21 @@
 //  Copyright (c) 2014 Joshua Wood. All rights reserved.
 //
 
-#import "SAMDynamiclySizedTableViewCell.h"
+#import "SAMDynamicallySizedTableViewCell.h"
 
-@implementation SAMDynamiclySizedTableViewCell
-
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
+@implementation SAMDynamicallySizedTableViewCell
 
 - (void)awakeFromNib
 {
-    // Initialization code
+    self.contentView.translatesAutoresizingMaskIntoConstraints = NO;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+- (void)layoutSubviews
 {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+    [super layoutSubviews];
+    [self.contentView setNeedsLayout];
+    [self.contentView layoutIfNeeded];
+    self.contentLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.contentLabel.frame);
 }
 
 @end

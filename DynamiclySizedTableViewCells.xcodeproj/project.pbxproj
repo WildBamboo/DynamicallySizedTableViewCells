@@ -14,13 +14,16 @@
 		030604A2195A2234005D5A4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604A1195A2234005D5A4D /* main.m */; };
 		030604A6195A2234005D5A4D /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604A5195A2234005D5A4D /* SAMAppDelegate.m */; };
 		030604A9195A2234005D5A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030604A7195A2234005D5A4D /* Main.storyboard */; };
-		030604AC195A2234005D5A4D /* SAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604AB195A2234005D5A4D /* SAMViewController.m */; };
 		030604AE195A2234005D5A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030604AD195A2234005D5A4D /* Images.xcassets */; };
 		030604B5195A2234005D5A4D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030604B4195A2234005D5A4D /* XCTest.framework */; };
 		030604B6195A2234005D5A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03060495195A2234005D5A4D /* Foundation.framework */; };
 		030604B7195A2234005D5A4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03060499195A2234005D5A4D /* UIKit.framework */; };
 		030604BF195A2234005D5A4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030604BD195A2234005D5A4D /* InfoPlist.strings */; };
 		030604C1195A2234005D5A4D /* DynamiclySizedTableViewCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604C0195A2234005D5A4D /* DynamiclySizedTableViewCellsTests.m */; };
+		030604CC195A26FB005D5A4D /* SAMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604CB195A26FB005D5A4D /* SAMTableViewController.m */; };
+		030604CF195A3944005D5A4D /* SAMFixedSizedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604CE195A3944005D5A4D /* SAMFixedSizedTableViewCell.m */; };
+		030604D2195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604D1195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.m */; };
+		030604D5195A3B0F005D5A4D /* SAMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 030604D4195A3B0F005D5A4D /* SAMModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		030604A4195A2234005D5A4D /* SAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
 		030604A5195A2234005D5A4D /* SAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
 		030604A8195A2234005D5A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		030604AA195A2234005D5A4D /* SAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMViewController.h; sourceTree = "<group>"; };
-		030604AB195A2234005D5A4D /* SAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMViewController.m; sourceTree = "<group>"; };
 		030604AD195A2234005D5A4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		030604B3195A2234005D5A4D /* DynamiclySizedTableViewCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamiclySizedTableViewCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030604B4195A2234005D5A4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		030604BC195A2234005D5A4D /* DynamiclySizedTableViewCellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamiclySizedTableViewCellsTests-Info.plist"; sourceTree = "<group>"; };
 		030604BE195A2234005D5A4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		030604C0195A2234005D5A4D /* DynamiclySizedTableViewCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamiclySizedTableViewCellsTests.m; sourceTree = "<group>"; };
+		030604CA195A26FB005D5A4D /* SAMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMTableViewController.h; sourceTree = "<group>"; };
+		030604CB195A26FB005D5A4D /* SAMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMTableViewController.m; sourceTree = "<group>"; };
+		030604CD195A3944005D5A4D /* SAMFixedSizedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMFixedSizedTableViewCell.h; sourceTree = "<group>"; };
+		030604CE195A3944005D5A4D /* SAMFixedSizedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMFixedSizedTableViewCell.m; sourceTree = "<group>"; };
+		030604D0195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMDynamicallySizedTableViewCell.h; sourceTree = "<group>"; };
+		030604D1195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMDynamicallySizedTableViewCell.m; sourceTree = "<group>"; };
+		030604D3195A3B0F005D5A4D /* SAMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMModel.h; sourceTree = "<group>"; };
+		030604D4195A3B0F005D5A4D /* SAMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +123,15 @@
 			children = (
 				030604A4195A2234005D5A4D /* SAMAppDelegate.h */,
 				030604A5195A2234005D5A4D /* SAMAppDelegate.m */,
+				030604CA195A26FB005D5A4D /* SAMTableViewController.h */,
+				030604CB195A26FB005D5A4D /* SAMTableViewController.m */,
+				030604D0195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.h */,
+				030604D1195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.m */,
+				030604CD195A3944005D5A4D /* SAMFixedSizedTableViewCell.h */,
+				030604CE195A3944005D5A4D /* SAMFixedSizedTableViewCell.m */,
+				030604D3195A3B0F005D5A4D /* SAMModel.h */,
+				030604D4195A3B0F005D5A4D /* SAMModel.m */,
 				030604A7195A2234005D5A4D /* Main.storyboard */,
-				030604AA195A2234005D5A4D /* SAMViewController.h */,
-				030604AB195A2234005D5A4D /* SAMViewController.m */,
 				030604AD195A2234005D5A4D /* Images.xcassets */,
 				0306049C195A2234005D5A4D /* Supporting Files */,
 			);
@@ -251,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				030604A6195A2234005D5A4D /* SAMAppDelegate.m in Sources */,
-				030604AC195A2234005D5A4D /* SAMViewController.m in Sources */,
+				030604D2195A3957005D5A4D /* SAMDynamicallySizedTableViewCell.m in Sources */,
 				030604A2195A2234005D5A4D /* main.m in Sources */,
+				030604CF195A3944005D5A4D /* SAMFixedSizedTableViewCell.m in Sources */,
+				030604CC195A26FB005D5A4D /* SAMTableViewController.m in Sources */,
+				030604D5195A3B0F005D5A4D /* SAMModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
